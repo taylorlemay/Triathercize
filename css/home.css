@@ -1,0 +1,122 @@
+
+
+
+
+header h1 {
+	text-align: right;
+	margin-left: 5px;
+	font-size: 1.2rem;
+}
+
+
+
+h1 nav {
+	float: right;
+
+}
+
+
+.definition {
+	background-image: url('../img/clouds.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5rem 0;
+}
+
+
+
+.first {
+	position: relative;
+  	width: 90%;
+ 	overflow: hidden;
+	top: 10%;
+ 	left: 10%;
+	color: #fff;
+	padding: 15rem, 0;
+	font-family: 'Playfair Display', sans-serif;
+
+}
+
+.first h2 {
+	color: #fff;
+	font-size: 4rem;
+  	font-family: 'Indie Flower', cursive;
+	
+}
+
+
+.first li {
+	line-height: 2rem;
+ 
+}
+
+ul a {
+	margin: 0;
+ 	padding: 0;
+ 	list-style-type: none;
+	text-decoration: none;
+}
+
+
+li a {
+	color: #666;
+}
+
+.definition li a {
+	color: #fff;
+}
+
+
+ol {
+	 font-family: 'Montserrat', sans-serif;
+}
+
+main ul {
+	list-style-type: none;
+	font-family: 'Indie Flower', cursive;
+  	color: #666;
+  	font-size: 2.5rem;
+  	line-height: 3rem;
+  	text-align: right;
+   	max-width: 960px;
+  	margin: 0 auto;
+  	padding: 0 50px 150px;
+  	overflow: hidden;
+
+}
+
+
+.first p {
+	font-size: 1.5rem;
+}
+
+
+
+
+
+@media screen and (min-width: 47.5rem){
+
+
+.first h2, .first p, .first li {
+	float: left;
+	width: 70%;
+}
+
+
+
+
+main ul {
+	position: absolute;
+	float: right;
+	width: 30%;
+ 	top: 30%;
+ 	left: 50%;
+}
+
+
+
+}
+
+
+
+

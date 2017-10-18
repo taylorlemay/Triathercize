@@ -1,0 +1,502 @@
+
+/* BASICS */
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #666;
+  background-color: #f7e8de;
+}
+
+
+/* HEADER */
+
+header {
+  font-family: 'Indie Flower', cursive;
+  overflow: hidden;
+  padding: .1rem 5%;
+  background-image: url('../img/lightGrey.jpg');
+  background-size: cover;
+  border-bottom-style: dotted;
+  border-color: rgba(242,173,125,.4);
+}
+
+
+header h1 {
+  margin: 0 auto;
+}
+ 
+
+header img {
+  display: block;
+  height: 6rem;
+  float: left;
+  padding: 10px 0 0;
+  margin-right: 40px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+  float: left;
+  color: #666;
+  padding-left: 2px;
+  line-height: 2rem;
+  font-size: 2.0rem;
+}
+
+
+header .fa {
+  float: right;
+  padding-top: 0px;
+
+} 
+
+
+h3 {
+  font-weight: lighter;
+  font-size: .7rem;
+  line-height: 1.5rem;
+  overflow: hidden;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+
+/* MAIN */
+
+.clearfix {
+  clear: both;
+}
+
+
+main {
+  overflow: hidden;
+  padding: 0;
+}
+
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  color: #3d6e9a;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  } 
+
+
+p {
+  line-height: 1.5rem;
+}
+
+
+ul {
+ line-height: 1.5rem;  
+}
+
+
+ol {
+ line-height: 1.5rem;  
+}
+
+
+nav li a {
+  color: #666;
+}
+
+
+.title {
+  font-size: 4rem;
+}
+
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 50px;
+  overflow: hidden;
+}
+
+
+.col2 img {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0px 10px;
+}
+
+
+.col5 {
+  overflow: hidden;
+  margin-bottom: 15%;
+}
+
+
+
+/* FOOTER */
+footer {
+  font-family: 'Playfair Display', serif;
+  padding: 15px;
+  color: #666;
+  font-size: .75rem;
+  background-image: url('../img/lightGrey.jpg');
+  background-size: cover;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-top-style: dotted;
+  border-color: rgba(242,173,125,.4);
+}
+
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+
+footer p {
+  float: left;
+  width: 50%; 
+  margin: 0;
+}
+
+
+footer li {
+  display: inline-block;
+  margin-left: 2%;
+}
+
+
+footer .fa {
+  color: #666;
+}
+
+
+.instructions img {
+  width: 0%;
+}
+
+
+.col6 {
+    text-align: right;
+    margin-top: -10%;
+    margin-bottom: 20%;
+    background-color: #3d6e9a;
+    overflow: hidden;
+    width: 45%;
+    float: right;
+
+}
+
+.col7 {
+    text-align: left;
+    margin-top: -10%;
+    margin-bottom: 20%;
+    background-color: #3d6e9a;
+    overflow: hidden;
+    width: 45%;
+    float: left;
+
+}
+.col6 a, .col7 a {
+  list-style-type: none;
+  text-decoration: none;
+ 
+}
+
+.col6 h2  {
+   color: #f2ad7d;
+   padding-right: 5%;
+   overflow: hidden;
+}
+
+.col7 h2 {
+  color: #f2ad7d;
+  padding-left: 5%;
+  overflow: hidden;
+}
+
+
+
+
+
+@media screen and (min-width: 47.5rem){
+
+  .col1swim {
+    position: relative;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 5%;
+    border-radius: 10px;
+    background-image: url('../img/pool.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 4%;
+    overflow: hidden;
+  }
+
+
+  .col1bike {
+    position: relative;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 5%;
+    border-radius: 10px;
+    background-image: url('../img/bike5.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top right;
+    margin-top: 4%;
+    overflow: hidden;
+
+
+  }
+
+
+  .col1run {
+    position: relative;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 7rem 5%;
+    border-radius: 10px;
+    background: url('../img/shoes1.jpg') no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-top: 4%;
+
+    overflow: hidden;
+
+  }
+
+
+  .col2 {
+    overflow: hidden;
+    height: 0px;
+    width: 0%;
+  }
+
+
+  h3 {
+    line-height: 1rem;
+  }
+
+
+  .col1swim .title {
+    margin-top: -1rem;
+    color: #f2ad7d;
+    font-size: 5.5rem;
+   
+  }
+
+
+
+
+  .col1bike .title {
+      margin-top: -1rem;
+      color: #3d6e9a;
+      font-size: 5.5rem;
+  }
+
+
+  .col1bike p {
+      color: #fff;
+      width: 40%;
+  }
+
+
+  .col1run .title {
+    margin-top: -1rem;
+    color: #f2ad7d;
+    font-size: 5.5rem;
+   }
+
+     .col1run p { 
+      width: 35%;
+  }
+
+
+  .col3 {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    background-color: rgba(242,173,125,.4);
+    box-sizing: border-box;
+    padding: 1rem 5%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+
+  .col4 {
+    float: left;
+    width: 65%;
+    background-color: rgba(242,173,125,.4);
+    box-sizing: border-box;
+    padding: 1rem 5%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+
+  .col4 ol {
+    line-height: 3rem;
+  }
+
+
+  .col5 {
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(242,173,125,.4);
+    box-sizing: border-box;
+    padding: 1rem 5%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+
+  .instructions ul {
+    line-height: 1.7rem;
+  }
+
+
+  .instructions {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 3.5rem;
+    margin-top: 5%;
+  }
+
+
+  .instructions img {
+    width: 20%;
+    overflow: hidden;
+    float: left;
+    margin-top: -10%;
+    margin-left: 5%;
+  }
+
+
+.col6 {
+    text-align: right;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #3d6e9a;
+    overflow: hidden;
+    float: right;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.col1bike .title {
+    margin-top: -1rem;
+    color: #3d6e9a;
+}
+
+
+.col6 a, .col7 a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.col6 h2 {
+   color: #f2ad7d;
+   padding-right: 5%;
+}
+
+.col7 {
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #3d6e9a;
+    overflow: hidden;
+    float: left;
+    width: 45%;
+    border-radius: 10px;
+}
+
+
+.col7 h2 {
+   color: #f2ad7d;
+   padding-left: 5%;
+}
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top-style: dotted;
+    border-color: rgba(242,173,125,.4);
+  }
+
+
+  footer .fa {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+
+  footer ul {
+    float: right;
+    width: 50%
+  }
+
+
+  footer p {
+    float: left;
+    width: 50%; 
+  }
+
+
+
+} 
+
+
+
+@media screen and (min-width: 37rem){
+
+
+  header .fa {
+    float: right;
+    padding-top: 50px;
+  }
+
+  h1{
+    line-height: 6.5rem;
+    font-size: 2.0rem;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
